@@ -17,22 +17,33 @@ import "./About.css";
 const About = (props) => {
 	return (
 		<Container fluid className="about-wrapper">
-			<Row>
-				<Col sm="12" md="6" lg="5" xl="4" className="p-0">
+			<Row
+				className="p-3"
+				id="about"
+				/*style={{
+					backgroundImage: `url(${process.env.PUBLIC_URL}/img/cactus.jpg)`,
+					backgroundSize: "cover",
+					backgroundPositionX: "right",
+					backgroundRepeat: "no-repeat",
+					//backgroundAttachment: "fixed",
+				}}*/
+			>
+				<Col className="large-profile-photo p-0 d-none d-md-block">
 					<img
 						src={process.env.PUBLIC_URL + "/profile.jpg"}
 						class="img-fluid profile-photo"
 						alt="Robert"
 					></img>
 				</Col>
-				<Col className="p-3" id="about" style={{
-				backgroundImage: `url(${process.env.PUBLIC_URL}/img/cactus.jpg)`,
-				backgroundSize: "cover",
-				backgroundPositionX: "right",
-				backgroundRepeat: "no-repeat",
-				//backgroundAttachment: "fixed",
-			}}>
-					<h1 className="display-4 fugaz-one text-center pt-4">About</h1>
+				<Col md="6">
+					<h1 className="display-4 fugaz-one text-center pt-4 about-title">ABOUT</h1>
+					<Col className="small-profile-photo d-md-none d-lg-none pb-4">
+						<img
+							src={process.env.PUBLIC_URL + "/profile.jpg"}
+							class="img-fluid profile-photo"
+							alt="Robert"
+						></img>
+					</Col>
 					<p>
 						Full-Stack Web Developer leveraging a background in education to build a more intuitive
 						user experience on the web.
@@ -44,14 +55,14 @@ const About = (props) => {
 					</p>
 					<div className="text-center pt-3">
 						<a
-							class="btn btn-lg btn-success mx-2"
+							class="font-weight-bold btn btn-lg btn-dark mx-2"
 							href="https://github.com/robertalanis"
 							target="blank"
 						>
 							GitHub
 						</a>
 						<a
-							class="btn btn-lg btn-outline-dark mx-2"
+							class="font-weight-bold btn btn-lg btn-outline-dark mx-2"
 							href="https://www.linkedin.com/in/robert-alanis/"
 							target="blank"
 						>

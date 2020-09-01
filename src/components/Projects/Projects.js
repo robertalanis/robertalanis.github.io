@@ -18,7 +18,19 @@ import "./Projects.css";
 
 const Projects = (props) => {
 	return (
-		<Container fluid id="projects" className="projects-wrapper">
+		<Container
+			fluid
+			id="projects"
+			className="projects-wrapper"
+			style={{
+				backgroundImage: `url(${process.env.PUBLIC_URL}/img/monstera.jpg)`,
+				backgroundSize: "cover",
+				backgroundPositionX: "center",
+				backgroundPositionY: "bottom",
+				backgroundRepeat: "no-repeat",
+				backgroundAttachment: "fixed",
+			}}
+		>
 			<Row>
 				<Col xs="12" className="text-center p-5">
 					<h1 className="display-4 fugaz-one">Projects</h1>
@@ -37,7 +49,7 @@ const Projects = (props) => {
 								<CardBody lassName="d-flex align-items-baseline">
 									<h5>{project.title}</h5>
 									<hr />
-									<CardText style={{whiteSpace: "pre-line"}}>{project.summary}</CardText>
+									<CardText style={{ whiteSpace: "pre-line" }}>{project.summary}</CardText>
 									<div>
 										{project.links.map(function (link, i) {
 											return (
