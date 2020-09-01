@@ -1,15 +1,31 @@
 .intro-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    color: seagreen;
-    background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	color: seagreen;
+	background-size: cover;
 }
 
 .intro-mark {
-    background-color:#9EF7E5;
-    color: midnightblue;
-    border: solid 3px midnightblue;
-    border-radius: 10px;
-  }
+	background-color: #9ef7e5;
+	color: midnightblue;
+	border: solid 3px midnightblue;
+	border-radius: 10px;
+}
+
+.intro-text {
+	font-size: 7vw;
+}
+
+@media only screen and (min-width: 600px) {
+	.intro-text {
+		font-size: 8vw;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.intro-text {
+		font-size: 6vw;
+	}
+}
