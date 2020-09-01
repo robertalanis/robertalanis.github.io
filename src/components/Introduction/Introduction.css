@@ -1,0 +1,15 @@
+.intro-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: seagreen;
+    background-size: cover;
+}
+
+.intro-mark {
+    background-color:#9EF7E5;
+    color: midnightblue;
+    border: solid 3px midnightblue;
+    border-radius: 10px;
+  }
