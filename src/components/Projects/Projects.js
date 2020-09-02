@@ -22,14 +22,14 @@ const Projects = (props) => {
 			fluid
 			id="projects"
 			className="projects-wrapper"
-			style={{
-				backgroundImage: `url(${process.env.PUBLIC_URL}/img/monstera.jpg)`,
-				backgroundSize: "cover",
-				backgroundPositionX: "center",
-				backgroundPositionY: "bottom",
-				backgroundRepeat: "no-repeat",
-				backgroundAttachment: "fixed",
-			}}
+			//style={{
+			//	backgroundImage: `url(${process.env.PUBLIC_URL}/img/monstera.jpg)`,
+			//	backgroundSize: "cover",
+			//	backgroundPositionX: "center",
+			//	backgroundPositionY: "bottom",
+			//	backgroundRepeat: "no-repeat",
+			//	backgroundAttachment: "fixed",
+			//}}
 		>
 			<Row>
 				<Col xs="12" className="text-center p-5">
@@ -54,12 +54,12 @@ const Projects = (props) => {
 										{project.links.map(function (link, i) {
 											return (
 												<div key={i}>
-													<a class="btn btn-block btn-secondary" href={link.github} target="blank">
+													<a class="btn btn-block btn-outline-dark" href={link.github} target="blank">
 														GitHub Repository
 													</a>
 													{link.demo ? (
 														<a
-															class="btn btn-block btn-outline-success"
+															class="btn btn-block btn-dark"
 															href={link.demo}
 															target="blank"
 														>

@@ -1,0 +1,37 @@
+.spacer-wrapper {
+	background-image: url("monstera.jpg");
+	background-size: contain;
+	background-position-x: right;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display: flex;
+	align-items: center;
+	color: midnightblue;
+	background-size: cover;
+}
+
+.spacer-text {
+	border: 2px solid midnightblue;
+	border-radius: 10px;
+	padding: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 2vw;
+	background: #9ef7e5;
+}
+
+@media only screen and (max-width: 700px) {
+	.spacer-text {
+		font-size: 3vw;
+	}
+}
+
+
+@media only screen and (max-width: 600px) {
+	.spacer-wrapper {
+		background-attachment: scroll;
+	}
+	.spacer-text {
+		font-size: 3vw;
+	}
+}

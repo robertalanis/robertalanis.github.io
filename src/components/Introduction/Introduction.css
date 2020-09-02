@@ -20,13 +20,12 @@
 }
 
 .intro-text {
-	font-size: 8vw;
+	font-size: 7vw;
 }
 
 @media only screen and (max-width: 600px) {
 	div.intro-wrapper.container-fluid {
-		background-attachment: scroll;
-		color: pink !important;
+        background-attachment: scroll;
 	}
 }
 

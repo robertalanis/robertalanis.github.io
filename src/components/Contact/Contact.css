@@ -6,20 +6,24 @@
     background-color: #aaa;
 }
 
-.contact-links {
-    background-color: #bbb;
-}
-
 .contact-links a {
-    color: black;
+    color: midnightblue;
 }
 
 .contact-links a:hover {
-    color: seagreen;
+    color: coral;
 }
 
 .contact-div {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.link-box {
+    border: 5px solid midnightblue;
+    border-radius: 10px;
+    padding: 10px;
+    color: midnightblue;
+    background: #9ef7e5;
 }
