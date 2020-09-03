@@ -2,6 +2,8 @@
 
 This is my portflio. It was created with React.js and is deployed on GitHub Pages. The deployed site can be [viewed here](https://robertalanis.github.io/).
 
+![Porftfolio Screenshot](/public/screenshot.png)
+
 ## Getting Started
 
 This site is pretty straightforward. You can test the site using the [deployed link](https://robertalanis.github.io/).
