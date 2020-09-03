@@ -2,7 +2,7 @@
 
 This is my portflio. It was created with React.js and is deployed on GitHub Pages. The deployed site can be [viewed here](https://robertalanis.github.io/).
 
-![Porftfolio Screenshot](/public/screenshot.png)
+![Porftfolio Screenshot](/public/img/screenshot.png)
 
 ## Getting Started
 
