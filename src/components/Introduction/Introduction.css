@@ -8,14 +8,13 @@
 	align-items: center;
 	justify-content: center;
 	height: 100vh;
-	color: seagreen;
 	background-size: cover;
 }
 
 .intro-mark {
-	background-color: #9ef7e5;
-	color: midnightblue;
-	border: solid 3px midnightblue;
+	background-color: #F8F9FA;
+	color: #343A40;
+	border: solid 3px #343A40;
 	border-radius: 10px;
 }
 

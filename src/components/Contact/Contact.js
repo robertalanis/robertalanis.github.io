@@ -14,40 +14,37 @@ const Contact = (props) => {
 			fluid
 			id="contact"
 			className="contact-wrapper"
-			style={{
-				backgroundImage: `url(${process.env.PUBLIC_URL}/img/monstera.jpg)`,
-				backgroundSize: "cover",
-				backgroundPositionX: "center",
-				backgroundPositionY: "bottom",
-				backgroundRepeat: "no-repeat",
-				backgroundAttachment: "fixed",
-			}}
 		>
 			<Row>
-				<Col md="8" className="contact-links text-center p-5">
+				<Col sm="12" md="10" className="contact-links text-center p-5">
 					<div className="link-box">
-						<h1 className="contact-title fugaz-one pb-4">CONTACT ME</h1>
-						<a href="https://github.com/robertalanis" target="blank">
-							<h5>
-								<AiOutlineGithub style={{ marginBottom: "10px" }} /> GitHub{" "}
-								<sup>
-									<FiExternalLink />
-								</sup>
-							</h5>
-						</a>
-						<a href="https://www.linkedin.com/in/robert-alanis/" target="blank">
-							<h5>
-								<AiOutlineLinkedin style={{ marginBottom: "5px" }} /> LinkedIn{" "}
-								<sup>
-									<FiExternalLink />
-								</sup>
-							</h5>
-						</a>
-						<a href="mailto:robertxavier@me.com">
-							<h5>
-								<AiOutlineMail /> robertxavier@me.com
-							</h5>
-						</a>
+						<h1 className="contact-title fugaz-one pt-3">CONTACT ME</h1>
+						<p>I look forward to hearing from you. Please reach out to me using the links below.</p>
+						<div className="contact-buttons text-center pt-3 pb-4">
+							<a
+								class="font-weight-bold btn btn-lg btn-dark mx-2"
+								href="https://github.com/robertalanis"
+								target="blank"
+							>
+								GitHub
+							</a>
+							<a
+								class="font-weight-bold btn btn-lg btn-dark mx-2"
+								href="https://www.linkedin.com/in/robert-alanis/"
+								target="blank"
+							>
+								LinkedIn
+							</a>
+						</div>
+						<div className="contact-buttons text-center">
+							<a
+								class="font-weight-bold btn btn-lg btn-outline-dark mx-2"
+								href="mailto:robertxavier@me.com"
+								target="blank"
+							>
+								Send Me an Email
+							</a>
+						</div>
 						<br />
 						<h3 className="contact-location fugaz-one">
 							<TiLocationOutline style={{ marginBottom: "5px" }} /> Located in Austin, TX

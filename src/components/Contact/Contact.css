@@ -4,14 +4,14 @@
 
 .contact-wrapper {
     background-color: #aaa;
-}
+    background-image: url(monstera-3.jpg);
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: right;
+    background-repeat: none;
+    background-attachment: fixed;
+    
 
-.contact-links a {
-    color: midnightblue;
-}
-
-.contact-links a:hover {
-    color: coral;
 }
 
 .contact-div {
@@ -21,13 +21,20 @@
 }
 
 .link-box {
-    border: 5px solid midnightblue;
+    border: 8px solid #343A40;
     border-radius: 10px;
     padding: 10px;
-    color: midnightblue;
-    background: #9ef7e5;
+    color: #343A40;
+    background: white;
+    /*background: #9ef7e5;*/
 }
 
 .contact-title {
     font-size: 8vw;
+}
+
+@media only screen and (max-width: 600px) {
+	.contact-wrapper {
+		background-attachment: scroll;
+	}
 }
