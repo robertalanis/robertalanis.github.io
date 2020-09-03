@@ -33,8 +33,8 @@ const Projects = (props) => {
 		>
 			<Row>
 				<Col xs="12" className="text-center p-5">
-					<h1 className="display-4 fugaz-one">Projects</h1>
-					<p>These are some highlighted projects I have worked on.</p>
+					<h1 className="projects-title fugaz-one">PROJECTS</h1>
+					<p className="projects-subtitle">These are some highlighted projects I have worked on.</p>
 				</Col>
 				{data.Projects.map((project, i) => {
 					return (

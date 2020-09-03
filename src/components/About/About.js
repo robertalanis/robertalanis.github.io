@@ -53,7 +53,7 @@ const About = (props) => {
 						at Austin with newly developed skills in HTML, CSS, JavaScript, Node.js, mySQL, Mongo,
 						React.js, and responsive web design.
 					</p>
-					<div className="text-center pt-3">
+					<div className="about-buttons text-center pt-3">
 						<a
 							class="font-weight-bold btn btn-lg btn-dark mx-2"
 							href="https://github.com/robertalanis"

@@ -7,7 +7,7 @@ const Introduction = (props) => {
 	return (
 		<Container fluid className="intro-wrapper">
 			<mark className="intro-mark">
-				<h1 className="intro-text fugaz-one px-5">
+				<h1 className="intro-text fugaz-one px-3 pt-3 pb-2">
 					I'm a full-stack <br />
 					web developer.
 					<span role="img" aria-label="technologist">

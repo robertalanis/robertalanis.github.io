@@ -26,7 +26,7 @@ const Contact = (props) => {
 			<Row>
 				<Col md="8" className="contact-links text-center p-5">
 					<div className="link-box">
-						<h1 className="display-4 fugaz-one pb-4">CONTACT ME</h1>
+						<h1 className="contact-title fugaz-one pb-4">CONTACT ME</h1>
 						<a href="https://github.com/robertalanis" target="blank">
 							<h5>
 								<AiOutlineGithub style={{ marginBottom: "10px" }} /> GitHub{" "}
@@ -49,7 +49,7 @@ const Contact = (props) => {
 							</h5>
 						</a>
 						<br />
-						<h3 className="fugaz-one">
+						<h3 className="contact-location fugaz-one">
 							<TiLocationOutline style={{ marginBottom: "5px" }} /> Located in Austin, TX
 						</h3>
 					</div>
