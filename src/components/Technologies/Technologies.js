@@ -1,5 +1,5 @@
 import React from "react";
-import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import { DiFirebase, DiReact, DiCode } from "react-icons/di";
 import { Section, SectionDivider, SectionText, SectionTitle } from "../../styles/GlobalComponents";
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from "./TechnologiesStyles";
 
@@ -25,17 +25,17 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.js, MongoDB, MySQL, Heroku, Security and Session Storage
+            Node.js, MongoDB, MySQL
           </ListParagraph>
         </ListContainer>
       </ListItem> 
       <ListItem>
-        <DiFirebase size="3rem" />
+        <DiCode size="3rem" />
         <ListContainer>
           <ListTitle>Middleware</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js
+            Heroku, User Authentication, Security and Session Storage
           </ListParagraph>
         </ListContainer>
       </ListItem> 

@@ -57,7 +57,7 @@ const Timeline = () => {
 	return (
 		<Section id="about">
 			<SectionTitle>About Me</SectionTitle>
-			<SectionText>I am a full-stack web developer based in Austin, Texas. I am a recent graduate of the Web Development Coding Boot Camp from the University of Texas at Austin. I am a problem-solver with an interest in buidling responsive and accesible web applications.</SectionText>
+			<SectionText>Full-Stack web developer adept at building responsive web applications from front to back. I am a problem-solver who is passionate about learning new technologies, bringing ideas to life, and working with dedicated teams to build efficient and robust applications suited to the user's needs.</SectionText>
 			{/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
 				<>
 					{TimeLineData.map((item, index) => (
