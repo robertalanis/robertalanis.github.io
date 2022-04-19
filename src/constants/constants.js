@@ -17,6 +17,15 @@ export const projects = [
       visit: 'https://robertalanis.github.io/frida-khalo-match-game/',
     id: 1,
   },
+    {
+    title: 'Student Tag and Search App',
+    description: 'Front-end react applicaton that takes in data from an API with mock student data. This is fully responsive for all screen sizes and allows users to view and exapnd data from API. Users can search by a combination of first and last name or saved tags.',
+      image: '/images/Student.png',
+      tags: ['React', 'API', 'CSS'],
+      source: 'https://github.com/robertalanis/Front-End-Tags-and-Filters',
+      visit: 'https://robertalanis.github.io/Front-End-Tags-and-Filters/',
+    id: 2,
+  },
   {
     title: 'Burger Tracker',
     description: "This is a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured. Each burger in the waiting area also has a Devour button. When the user clicks it, the burger will move to the right side of the page. The app will store every burger in a database, whether devoured or not until it is deleted by the user. Users can delete the burger from the database by using either the Discard or Forget buttons.",
@@ -24,7 +33,7 @@ export const projects = [
       tags: ['MySQL', 'Express', 'Node', 'Handlebars'],
     source: 'https://google.com',
     visit: 'https://google.com',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Node Word Guess Game',
@@ -32,7 +41,7 @@ export const projects = [
     image: '/images/WordGuess.gif',
     tags: ['Node', 'JavaScript Constructors'],
     source: 'https://github.com/robertalanis/word-guess-node-app',
-    id: 3,
+    id: 4,
   },
   {
     title: 'LIRI-Bot',
@@ -40,7 +49,7 @@ export const projects = [
       image: '/images/LIRI.gif',
       tags: ['Node.js', 'APIs'],
     source: 'https://github.com/robertalanis/liri-node-app',
-    id: 4,
+    id: 5,
   }
 ];
 
